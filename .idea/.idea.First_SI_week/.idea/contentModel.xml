@@ -9,6 +9,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="CreateClass.csproj" t="IncludeRecursive" />
         <e p="Employee.cs" t="Include" />
+        <e p="ICloneable.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="Person.cs" t="Include" />
         <e p="Program.cs" t="Include" />

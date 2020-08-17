@@ -21,9 +21,19 @@ namespace CreateClass
             aggregator.AddToEmployyes(employee3);
             int allEmployeeSalary = aggregator.getAllPerson(aggregator.Employees);
             
-            Console.WriteLine(employee1.ToString());
             
+            
+            //exercise 3
+            Employee employee4 = new Employee("Josi Bharat",DateTime.Parse("1919-11-12"),Person.Gender.MALE,1111,"Baker", room);
+            Employee employee4Clone = (Employee) employee4.Clone();
+            Console.WriteLine(employee4.ToString());
+            
+            
+            
+            Console.WriteLine(employee1.ToString());
+            Console.ReadKey();
         }
+        
 
         
     }

@@ -2,12 +2,22 @@
 
 namespace CreateClass
 {
-    public class Employee : Person
+    public class Employee : Person, ICloneable
     {
         private int salary;
         private string profession;
         private Room room;
 
+
+        public object Clone()
+        {
+            Employee newEmployee = (Employee) this.MemberwiseClone();
+            newEmployee.Room = new Room(room.RoomNumber = 2);
+            return newEmployee;
+        }
+
+        
+        
         public Employee(string name, DateTime birthDate, Gender gender, int salary, string profession, Room room) : base(name, birthDate, gender)
         {
             Salary = salary;
