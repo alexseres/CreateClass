@@ -9,11 +9,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc5c1ac3-90b3-4de7-ab1e-ca4bab536cf1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreateClass/CreateClass.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreateClass/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreateClass/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/First_SI_week.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateClass/Person.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.First_SI_week/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.First_SI_week/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.First_SI_week/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.First_SI_week/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CreateClass/CreateClass.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CreateClass/CreateClass.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CreateClass/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CreateClass/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +26,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/CreateClass/Person.cs" />
         <option value="$PROJECT_DIR$/CreateClass/Program.cs" />
       </list>
     </option>
@@ -40,6 +41,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
     <configuration name="CreateClass" type="DotNetProject" factoryName=".NET Project">
@@ -69,14 +71,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597651767339</updated>
-      <workItem from="1597651779039" duration="1833000" />
+      <workItem from="1597651779039" duration="3779000" />
+      <workItem from="1597655932088" duration="164000" />
+      <workItem from="1597656255931" duration="2797000" />
+      <workItem from="1597660046167" duration="2219000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -88,8 +93,23 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="519" y="0" key="RiderGenerateDialog" timestamp="1597660768050">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="519" y="0" key="RiderGenerateDialog/0.0.1280.760@0.0.1280.760" timestamp="1597660768050" />
+    <state x="235" y="26" key="SettingsEditor" timestamp="1597660328188">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="235" y="26" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1597660328188" />
+    <state x="396" y="81" width="672" height="678" key="search.everywhere.popup" timestamp="1597660549878">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="396" y="81" width="672" height="678" key="search.everywhere.popup/0.0.1280.760@0.0.1280.760" timestamp="1597660549878" />
   </component>
 </project>

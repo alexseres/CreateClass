@@ -6,7 +6,8 @@ namespace CreateClass
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Trial");
+            Person Alex = new Person("Alex", DateTime.Parse("1995-04-20"),Person.Gender.MALE );
+            Console.WriteLine(Alex.ToString());
         }
     }
 }
