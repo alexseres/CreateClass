@@ -9,11 +9,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc5c1ac3-90b3-4de7-ab1e-ca4bab536cf1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CreateClass/Person.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateClass/Aggregator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateClass/Employee.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateClass/Room.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateClassTests/CreateClassTests.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateClassTests1/CreateClassTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.First_SI_week/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.First_SI_week/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.First_SI_week/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.First_SI_week/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CreateClass/CreateClass.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CreateClass/CreateClass.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CreateClass/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CreateClass/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_SI_week.sln" beforeDir="false" afterPath="$PROJECT_DIR$/First_SI_week.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,11 +28,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/alexseres/CreateClass" />
+      </set>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/CreateClassTests/CreateClassTest.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CreateClassTests/Properties/AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/CreateClass/Person.cs" />
+        <option value="$PROJECT_DIR$/CreateClass/Class.cs" />
+        <option value="$PROJECT_DIR$/CreateClass/Employee.cs" />
+        <option value="$PROJECT_DIR$/UnitTestForPersonClass/Tests.cs" />
+        <option value="$PROJECT_DIR$/CreateClass/Room.cs" />
+        <option value="$PROJECT_DIR$/UnitTestForPersonClass/CreateClassTest.cs" />
+        <option value="$PROJECT_DIR$/CreateClassTests1/Tests.cs" />
+        <option value="$PROJECT_DIR$/CreateClassTests/CreateClassTest.cs" />
+        <option value="$PROJECT_DIR$/CreateClass/Aggregator.cs" />
         <option value="$PROJECT_DIR$/CreateClass/Program.cs" />
+        <option value="$PROJECT_DIR$/CreateClassTests1/CreateClassTest.cs" />
       </list>
     </option>
   </component>
@@ -38,12 +63,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34947643" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30104712" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected=".NET Project.CreateClass">
     <configuration name="CreateClass" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -74,7 +101,10 @@
       <workItem from="1597651779039" duration="3779000" />
       <workItem from="1597655932088" duration="164000" />
       <workItem from="1597656255931" duration="2797000" />
-      <workItem from="1597660046167" duration="2219000" />
+      <workItem from="1597660046167" duration="3214000" />
+      <workItem from="1597663614272" duration="9148000" />
+      <workItem from="1597684856238" duration="3274000" />
+      <workItem from="1597689983780" duration="2676000" />
     </task>
     <servers />
   </component>
@@ -99,17 +129,101 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="519" y="0" key="RiderGenerateDialog" timestamp="1597660768050">
+    <state width="795" height="225" key="GridCell.Tab.0.bottom" timestamp="1597696857622">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="519" y="0" key="RiderGenerateDialog/0.0.1280.760@0.0.1280.760" timestamp="1597660768050" />
+    <state width="795" height="225" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1597696857622" />
+    <state width="795" height="225" key="GridCell.Tab.0.center" timestamp="1597696857622">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="795" height="225" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1597696857622" />
+    <state width="795" height="225" key="GridCell.Tab.0.left" timestamp="1597696857622">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="795" height="225" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1597696857622" />
+    <state width="795" height="225" key="GridCell.Tab.0.right" timestamp="1597696857622">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="795" height="225" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1597696857622" />
+    <state width="795" height="225" key="GridCell.Tab.1.bottom" timestamp="1597696857623">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="795" height="225" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1597696857623" />
+    <state width="795" height="225" key="GridCell.Tab.1.center" timestamp="1597696857623">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="795" height="225" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1597696857623" />
+    <state width="795" height="225" key="GridCell.Tab.1.left" timestamp="1597696857623">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="795" height="225" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1597696857623" />
+    <state width="795" height="225" key="GridCell.Tab.1.right" timestamp="1597696857623">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="795" height="225" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1597696857623" />
+    <state width="795" height="225" key="GridCell.Tab.2.bottom" timestamp="1597696857624">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="795" height="225" key="GridCell.Tab.2.bottom/0.0.1280.760@0.0.1280.760" timestamp="1597696857624" />
+    <state width="795" height="225" key="GridCell.Tab.2.center" timestamp="1597696857623">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="795" height="225" key="GridCell.Tab.2.center/0.0.1280.760@0.0.1280.760" timestamp="1597696857623" />
+    <state width="795" height="225" key="GridCell.Tab.2.left" timestamp="1597696857623">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="795" height="225" key="GridCell.Tab.2.left/0.0.1280.760@0.0.1280.760" timestamp="1597696857623" />
+    <state width="795" height="225" key="GridCell.Tab.2.right" timestamp="1597696857624">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="795" height="225" key="GridCell.Tab.2.right/0.0.1280.760@0.0.1280.760" timestamp="1597696857624" />
+    <state width="795" height="225" key="GridCell.Tab.3.bottom" timestamp="1597696857625">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="795" height="225" key="GridCell.Tab.3.bottom/0.0.1280.760@0.0.1280.760" timestamp="1597696857625" />
+    <state width="795" height="225" key="GridCell.Tab.3.center" timestamp="1597696857625">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="795" height="225" key="GridCell.Tab.3.center/0.0.1280.760@0.0.1280.760" timestamp="1597696857625" />
+    <state width="795" height="225" key="GridCell.Tab.3.left" timestamp="1597696857624">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="795" height="225" key="GridCell.Tab.3.left/0.0.1280.760@0.0.1280.760" timestamp="1597696857624" />
+    <state width="795" height="225" key="GridCell.Tab.3.right" timestamp="1597696857625">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="795" height="225" key="GridCell.Tab.3.right/0.0.1280.760@0.0.1280.760" timestamp="1597696857625" />
+    <state width="795" height="225" key="GridCell.Tab.4.bottom" timestamp="1597696857626">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="795" height="225" key="GridCell.Tab.4.bottom/0.0.1280.760@0.0.1280.760" timestamp="1597696857626" />
+    <state width="795" height="225" key="GridCell.Tab.4.center" timestamp="1597696857626">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="795" height="225" key="GridCell.Tab.4.center/0.0.1280.760@0.0.1280.760" timestamp="1597696857626" />
+    <state width="795" height="225" key="GridCell.Tab.4.left" timestamp="1597696857626">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="795" height="225" key="GridCell.Tab.4.left/0.0.1280.760@0.0.1280.760" timestamp="1597696857626" />
+    <state width="795" height="225" key="GridCell.Tab.4.right" timestamp="1597696857626">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="795" height="225" key="GridCell.Tab.4.right/0.0.1280.760@0.0.1280.760" timestamp="1597696857626" />
+    <state x="468" y="113" key="Rider.ProjectTemplateDialog.Size" timestamp="1597686192099">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="468" y="113" key="Rider.ProjectTemplateDialog.Size/0.0.1280.760@0.0.1280.760" timestamp="1597686192099" />
+    <state x="519" y="0" key="RiderGenerateDialog" timestamp="1597670811522">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="519" y="0" key="RiderGenerateDialog/0.0.1280.760@0.0.1280.760" timestamp="1597670811522" />
     <state x="235" y="26" key="SettingsEditor" timestamp="1597660328188">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="235" y="26" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1597660328188" />
-    <state x="396" y="81" width="672" height="678" key="search.everywhere.popup" timestamp="1597660549878">
+    <state x="397" y="81" width="672" height="678" key="search.everywhere.popup" timestamp="1597685778334">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="396" y="81" width="672" height="678" key="search.everywhere.popup/0.0.1280.760@0.0.1280.760" timestamp="1597660549878" />
+    <state x="397" y="81" width="672" height="678" key="search.everywhere.popup/0.0.1280.760@0.0.1280.760" timestamp="1597685778334" />
   </component>
 </project>
